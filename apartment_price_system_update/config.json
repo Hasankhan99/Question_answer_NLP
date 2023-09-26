@@ -1,0 +1,119 @@
+{
+    "building_code": {
+        "url": "http://52.78.67.130:3100/building_code",
+        "columns": [
+            "법정동코드",
+            "시도명",
+            "시군구명",
+            "구명",
+            "읍면동명",
+            "리명",
+            "조회대상여부",
+            "noname1" 
+       ],
+        "table_name": "building_code"
+        
+    },
+    "apartment_information": {
+        "url": "http://52.78.67.130:3100/apartment_information",
+        "columns": [
+            "물건식별자",
+            "시도명",
+            "시군구명",
+            "구명",
+            "읍면동명",
+            "도로상세주소",
+            "번지",
+            "기타번지",
+            "단지명",
+            "총세대수",
+            "총동수",
+            "단지최고층",
+            "단지최저층",
+            "준공년월",
+            "건설업체명",
+            "난방방식",
+            "난방연료",
+            "주차대수",
+            "관리사무소전화번호",
+            "리모델링여부",
+            "도로기본주소",
+            "입주년월",
+            "단지특징",
+            "우편번호",
+            "주상복합여부",
+            "빌라연립여부",
+            "noname1",
+            "noname2",
+            "noname3",
+            "noname4",
+            "noname5",
+            "noname6",
+            "noname7",
+            "noname8",
+            "noname9",
+            "noname10",
+            "noname11",
+            "noname12",
+            "noname13",
+            "noname14",
+            "noname15",
+            "법정동코드",
+            "분양권여부",
+            "noname16"
+        ],
+        "table_name": "apartment_information"
+    },
+    "apartment_price": {
+        "url": "http://52.78.67.130:3100/apartment_price",
+        "columns": [
+            "시세마감년월일",
+            "물건식별자",
+            "평형일련번호",
+            "시도명",
+            "시군구명",
+            "구명",
+            "읍면동명",
+            "리명",
+            "번지",
+            "기타번지",
+            "단지명",
+            "매매하한가",
+            "매매일반거래가",
+            "매매상한가",
+            "전세하한가",
+            "전세일반거래가",
+            "전세상한가",
+            "중개업소명1",
+            "noname1",
+            "중개업소명2",
+            "noname2",
+            "법정동코드",
+            "noname3"
+        ],
+        "table_name": "apartment_price"
+    },
+    "apartment_property": {
+        "url": "http://52.78.67.130:3100/apartment_property",
+        "columns": [
+            "물건식별자",
+            "평형일련번호",
+            "주택형",
+            "평형구분",
+            "전용면적",
+            "세대수",
+            "방수",
+            "욕실수",
+            "분양가",
+            "방향",
+            "현관구조",
+            "기타전용면적",
+            "noname1"
+        ],
+        "table_name": "apartment_property"
+    },
+    "all_apis_key": {
+        "names":["building_code","apartment_information","apartment_price","apartment_property"]
+    }
+        
+}
